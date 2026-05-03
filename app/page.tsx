@@ -3,12 +3,12 @@ import { Shield, Mail, Phone, Globe, Search, Target, Activity, FileText, CheckCi
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-300 font-sans selection:bg-blue-900/50 selection:text-blue-100">
-      
+
       {/* HERO SECTION */}
-      <header className="relative pt-24 pb-20 lg:pt-32 lg:pb-28 px-4 sm:px-6 lg:px-8 border-b border-cyan-900/40 overflow-hidden group">
+      <header className="relative pt-16 pb-12 lg:pt-20 lg:pb-16 px-4 sm:px-6 lg:px-8 border-b border-cyan-900/40 overflow-hidden group">
         {/* Base Background Image with subtle slow zoom */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-30 transform scale-105 group-hover:scale-110 transition-transform duration-[20s] ease-out" style={{ backgroundImage: "url('/hero.png')" }}></div>
-        
+
         {/* Dynamic Animated Gradient Mesh Overlay */}
         <div className="absolute inset-0 -z-20 mix-blend-color-dodge">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-transparent to-cyan-500/20 animate-pulse" style={{ animationDuration: '4s' }}></div>
@@ -17,52 +17,52 @@ export default function Home() {
 
         {/* Deep Glassmorphism Overlay */}
         <div className="absolute inset-0 bg-[#020617]/70 backdrop-blur-[8px] -z-10 shadow-[inset_0_0_100px_rgba(0,0,0,0.8)]"></div>
-        
+
         {/* Glowing Top Line */}
         <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent shadow-[0_0_15px_rgba(34,211,238,0.5)]"></div>
-        
+
         <div className="max-w-5xl mx-auto flex flex-col items-center text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/80 border border-cyan-800/50 text-xs font-semibold text-cyan-100 mb-10 uppercase tracking-widest shadow-[0_0_20px_rgba(34,211,238,0.1)] backdrop-blur-md hover:border-cyan-400/50 transition-colors duration-300">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900/80 border border-cyan-800/50 text-[10px] font-semibold text-cyan-100 mb-4 uppercase tracking-widest shadow-[0_0_20px_rgba(34,211,238,0.1)] backdrop-blur-md hover:border-cyan-400/50 transition-colors duration-300">
             <Building2 className="w-3.5 h-3.5 text-cyan-400" />
             <span>Chhatrapati Shahu Maharaj Sevabhavi Sanstha</span>
           </div>
 
-          <img src="/logo.png" alt="SKYLINE Centre of Excellence Logo" className="w-24 h-24 md:w-32 md:h-32 mb-8 object-contain drop-shadow-[0_0_30px_rgba(34,211,238,0.5)] hover:drop-shadow-[0_0_50px_rgba(34,211,238,0.8)] hover:scale-105 transition-all duration-500 ease-out" />
-          
-          <div className="flex flex-col items-center mb-10 w-full max-w-4xl mx-auto">
-            <h1 className="text-6xl md:text-7xl lg:text-9xl font-black mb-2 tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-slate-400 drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+          <img src="/logo.png" alt="SKYLINE Centre of Excellence Logo" className="w-14 h-14 md:w-16 md:h-16 mb-2 object-contain drop-shadow-[0_0_30px_rgba(34,211,238,0.5)] hover:drop-shadow-[0_0_50px_rgba(34,211,238,0.8)] hover:scale-105 transition-all duration-500 ease-out" />
+
+          <div className="flex flex-col items-center mb-6 w-full max-w-xl mx-auto space-y-1">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-slate-400 drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
               SKYLINE
             </h1>
             
-            <div className="flex items-center gap-4 w-full mb-2">
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-cyan-500/50 to-cyan-500/80"></div>
-              <span className="text-sm md:text-base lg:text-xl font-bold tracking-[0.4em] text-cyan-400 uppercase">
+            <div className="flex items-center gap-2 w-full max-w-xs px-4">
+              <div className="h-[1px] flex-1 bg-cyan-500/50"></div>
+              <span className="text-[9px] md:text-[10px] lg:text-xs font-bold tracking-[0.2em] text-cyan-400 uppercase whitespace-nowrap">
                 Centre of Excellence
               </span>
-              <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-cyan-500/50 to-cyan-500/80"></div>
+              <div className="h-[1px] flex-1 bg-cyan-500/50"></div>
             </div>
 
-            <div className="text-xs md:text-sm font-semibold tracking-[0.3em] text-slate-400 uppercase mb-2">
+            <div className="text-[7px] md:text-[9px] font-semibold tracking-[0.1em] text-slate-400 uppercase">
               In
             </div>
 
-            <div className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 uppercase mb-8 text-center drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
+            <div className="text-base md:text-lg lg:text-2xl font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 uppercase text-center drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
               Cyber Security and Forensics
             </div>
 
-            <div className="flex items-center gap-4 w-full opacity-90">
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-white/20 to-white/40"></div>
-              <p className="text-xs md:text-sm lg:text-base tracking-[0.2em] italic font-medium text-white drop-shadow-md whitespace-nowrap">
+            <div className="flex items-center gap-2 w-full max-w-[200px] px-4 opacity-70">
+              <div className="h-[1px] flex-1 bg-white/20"></div>
+              <p className="text-[8px] md:text-[10px] tracking-[0.05em] italic font-medium text-white whitespace-nowrap">
                 Where Security Meets Intelligence
               </p>
-              <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-white/20 to-white/40"></div>
+              <div className="h-[1px] flex-1 bg-white/20"></div>
             </div>
           </div>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-200 mb-6 tracking-wide drop-shadow-lg">
             Learn Today. Secure Tomorrow. <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]">Lead The Future.</span>
           </h2>
-          
+
           <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
             Industry-focused cybersecurity training and digital forensics education, empowering students with real-world skills to protect what matters most.
           </p>
@@ -85,7 +85,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            
+
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 lg:p-10 shadow-2xl shadow-black/50 relative overflow-hidden">
               <div className="absolute top-0 right-0 p-32 bg-blue-500/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
               <h3 className="text-xl font-medium text-blue-400 uppercase tracking-widest mb-4">Our Purpose</h3>
@@ -118,7 +118,7 @@ export default function Home() {
             <h2 className="text-3xl font-semibold text-white mb-4">Core Domains of Expertise</h2>
             <p className="text-slate-400 max-w-2xl mx-auto">Mastering the critical disciplines required to secure modern digital infrastructures.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: Shield, title: "Cyber Security", desc: "Protect systems, data, and networks from evolving sophisticated threats." },
@@ -148,7 +148,7 @@ export default function Home() {
               <p className="text-slate-400 mb-8 leading-relaxed">
                 Take the next step toward a rewarding career. Designed to build your skills, boost your confidence, and help you secure tomorrow in a fully equipped digital lab environment.
               </p>
-              
+
               <div className="space-y-6">
                 {[
                   { title: "Industry-Recognized Certification", desc: "Earn a globally respected credential validating your skills." },
@@ -289,7 +289,7 @@ export default function Home() {
             <h2 className="text-3xl font-semibold text-white mb-4">Why Choose SKYLINE?</h2>
             <div className="w-12 h-1 bg-slate-800 mx-auto rounded-full"></div>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
             {[
               { title: "Career-Driven Curriculum", desc: "Designed to meet specific industry demands and adapt to future technological trends." },
@@ -329,7 +329,7 @@ export default function Home() {
               </p>
               <p className="text-sm text-slate-500 font-medium">Under Chhatrapati Shahu Maharaj Sevabhavi Sanstha</p>
             </div>
-            
+
             <div className="md:text-right flex flex-col md:items-end justify-center">
               <h4 className="text-white font-medium mb-6">Connect With Us</h4>
               <div className="space-y-4">
@@ -357,7 +357,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
           <div className="pt-8 border-t border-slate-900 text-center flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-slate-600 font-medium">
               &copy; {new Date().getFullYear()} SKYLINE Centre of Excellence. All rights reserved.
