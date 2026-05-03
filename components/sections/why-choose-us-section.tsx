@@ -20,7 +20,7 @@ export function WhyChooseUsSection() {
             Why Us
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Why Choose <span className="text-[#00ff88]">CyberSecure Academy</span>?
+            Why Choose <span className="text-[#00ff88]">SKYLINE Centre of Excellence</span>?
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             We&apos;re committed to providing world-class cybersecurity education

@@ -14,12 +14,12 @@ const geist = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Skyline Cyber Security Solutions & Forensic Consultancy Services',
+  title: 'SKYLINE Centre of Excellence in Cyber Security and Forensics',
   description: 'Industry-focused cybersecurity training and digital forensics education, empowering students with real-world skills.',
   generator: 'Next.js',
-  keywords: ['Cyber Security', 'Digital Forensics', 'Ethical Hacking', 'Risk & Compliance', 'Incident Response', 'Education', 'Skyline', 'Satara', 'Maharashtra', 'Certification'],
-  authors: [{ name: 'Skyline Cyber Security Solutions' }],
-  creator: 'Skyline Cyber Security Solutions',
+  keywords: ['Cyber Security', 'Digital Forensics', 'Ethical Hacking', 'Risk & Compliance', 'Incident Response', 'Education', 'Skyline', 'SKYLINE Centre of Excellence', 'Satara', 'Maharashtra', 'Certification'],
+  authors: [{ name: 'SKYLINE Centre of Excellence in Cyber Security and Forensics' }],
+  creator: 'SKYLINE Centre of Excellence in Cyber Security and Forensics',
   publisher: 'Chhatrapati Shahu Maharaj Sevabhavi Sanstha',
   icons: {
     icon: '/logo.png',
@@ -27,16 +27,16 @@ export const metadata: Metadata = {
     apple: '/logo.png',
   },
   openGraph: {
-    title: 'Skyline Cyber Security Solutions & Forensic Consultancy Services',
-    description: 'Where Security Meets Intelligence. Master Ethical Hacking, Digital Forensics, and Incident Response with expert-led training.',
+    title: 'SKYLINE Centre of Excellence in Cyber Security and Forensics',
+    description: 'Where Security Meets Intelligence. Master Ethical Hacking, Digital Forensics, and Incident Response with expert-led training at SKYLINE Centre of Excellence.',
     url: 'https://skycyberforensics.in',
-    siteName: 'Skyline Cyber Security Solutions',
+    siteName: 'SKYLINE Centre of Excellence',
     images: [
       {
         url: '/logo.png',
         width: 800,
         height: 800,
-        alt: 'Skyline Logo',
+        alt: 'SKYLINE Logo',
       },
     ],
     locale: 'en_IN',
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Skyline Cyber Security Solutions',
-    description: 'Where Security Meets Intelligence. Build your career in Cyber Security.',
+    title: 'SKYLINE Centre of Excellence',
+    description: 'Where Security Meets Intelligence. Build your career in Cyber Security with SKYLINE.',
     images: ['/logo.png'],
   },
 }

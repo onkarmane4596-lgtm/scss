@@ -27,19 +27,36 @@ export default function Home() {
             <span>Chhatrapati Shahu Maharaj Sevabhavi Sanstha</span>
           </div>
 
-          <img src="/logo.png" alt="Skyline Cyber Security Solutions Logo" className="w-24 h-24 md:w-32 md:h-32 mb-8 object-contain drop-shadow-[0_0_30px_rgba(34,211,238,0.5)] hover:drop-shadow-[0_0_50px_rgba(34,211,238,0.8)] hover:scale-105 transition-all duration-500 ease-out" />
+          <img src="/logo.png" alt="SKYLINE Centre of Excellence Logo" className="w-24 h-24 md:w-32 md:h-32 mb-8 object-contain drop-shadow-[0_0_30px_rgba(34,211,238,0.5)] hover:drop-shadow-[0_0_50px_rgba(34,211,238,0.8)] hover:scale-105 transition-all duration-500 ease-out" />
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-300 drop-shadow-lg">Skyline Cyber Security Solutions</span> <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-500 font-medium text-3xl md:text-4xl lg:text-5xl block mt-2 drop-shadow-[0_0_10px_rgba(34,211,238,0.3)]">& Forensic Consultancy Services</span>
-          </h1>
+          <div className="flex flex-col items-center mb-10 w-full max-w-4xl mx-auto">
+            <h1 className="text-6xl md:text-7xl lg:text-9xl font-black mb-2 tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-slate-400 drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+              SKYLINE
+            </h1>
+            
+            <div className="flex items-center gap-4 w-full mb-2">
+              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-cyan-500/50 to-cyan-500/80"></div>
+              <span className="text-sm md:text-base lg:text-xl font-bold tracking-[0.4em] text-cyan-400 uppercase">
+                Centre of Excellence
+              </span>
+              <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-cyan-500/50 to-cyan-500/80"></div>
+            </div>
 
-          <div className="flex items-center gap-4 mb-10 opacity-80">
-            <div className="h-[1px] w-12 md:w-24 bg-gradient-to-r from-transparent to-cyan-500/50"></div>
-            <p className="text-sm md:text-base tracking-[0.2em] uppercase text-cyan-300 font-bold drop-shadow-md">
-              Where Security Meets Intelligence
-            </p>
-            <div className="h-[1px] w-12 md:w-24 bg-gradient-to-l from-transparent to-cyan-500/50"></div>
+            <div className="text-xs md:text-sm font-semibold tracking-[0.3em] text-slate-400 uppercase mb-2">
+              In
+            </div>
+
+            <div className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 uppercase mb-8 text-center drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
+              Cyber Security and Forensics
+            </div>
+
+            <div className="flex items-center gap-4 w-full opacity-90">
+              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-white/20 to-white/40"></div>
+              <p className="text-xs md:text-sm lg:text-base tracking-[0.2em] italic font-medium text-white drop-shadow-md whitespace-nowrap">
+                Where Security Meets Intelligence
+              </p>
+              <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-white/20 to-white/40"></div>
+            </div>
           </div>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-200 mb-6 tracking-wide drop-shadow-lg">
@@ -61,7 +78,7 @@ export default function Home() {
               <div className="w-12 h-1 bg-blue-600 rounded-full mb-8"></div>
               <div className="space-y-6 text-slate-400 text-lg leading-relaxed">
                 <p>
-                  <strong className="text-slate-200 font-medium">Skyline Cyber Security Solutions and Forensic Consultancy Services</strong> operates under the prestigious <strong className="text-slate-200 font-medium">Chhatrapati Shahu Maharaj Sevabhavi Sanstha</strong> with the core objective of providing high-quality, accessible education in the field of cybersecurity.
+                  <strong className="text-slate-200 font-medium">SKYLINE Centre of Excellence in Cyber Security and Forensics</strong> operates under the prestigious <strong className="text-slate-200 font-medium">Chhatrapati Shahu Maharaj Sevabhavi Sanstha</strong> with the core objective of providing high-quality, accessible education in the field of cybersecurity.
                 </p>
                 <p>
                   The institute focuses on developing student skills through rigorous practical training, an industry-relevant curriculum, and a guided learning environment. We are committed to building strong foundational and practical skills in cyber defense and digital investigation.
@@ -72,7 +89,7 @@ export default function Home() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 lg:p-10 shadow-2xl shadow-black/50 relative overflow-hidden">
               <div className="absolute top-0 right-0 p-32 bg-blue-500/5 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
               <h3 className="text-xl font-medium text-blue-400 uppercase tracking-widest mb-4">Our Purpose</h3>
-              <h4 className="text-2xl font-semibold text-white mb-4">Your Future Starts Here. With Skyline.</h4>
+              <h4 className="text-2xl font-semibold text-white mb-4">Your Future Starts Here. With SKYLINE.</h4>
               <p className="text-slate-400 mb-8 leading-relaxed">
                 Our commitment is to your future. We bridge the gap between theoretical knowledge and real-world application, ensuring our graduates are prepared to detect, respond, and mitigate evolving digital threats globally.
               </p>
@@ -153,7 +170,7 @@ export default function Home() {
               <Lock className="w-16 h-16 text-slate-700 mb-6" strokeWidth={1} />
               <h3 className="text-2xl font-medium text-white mb-2">Admissions Open</h3>
               <p className="text-slate-400 mb-8">Limited seats available. Maximum impact for your career.</p>
-              <a href="https://wa.me/919922779934?text=Hello%20Skyline!%20I%20am%20interested%20in%20enrolling%20in%20a%20course." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] text-white hover:bg-[#20bd5a] font-medium py-3 px-6 rounded-lg transition-colors">
+              <a href="https://wa.me/919922779934?text=Hello%20SKYLINE!%20I%20am%20interested%20in%20enrolling%20in%20a%20course." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] text-white hover:bg-[#20bd5a] font-medium py-3 px-6 rounded-lg transition-colors">
                 Chat on WhatsApp <ChevronRight className="w-4 h-4" />
               </a>
             </div>
@@ -269,7 +286,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-semibold text-white mb-4">Why Choose Skyline?</h2>
+            <h2 className="text-3xl font-semibold text-white mb-4">Why Choose SKYLINE?</h2>
             <div className="w-12 h-1 bg-slate-800 mx-auto rounded-full"></div>
           </div>
           
@@ -304,11 +321,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <img src="/logo.png" alt="Skyline Logo" className="w-10 h-10 object-contain" />
-                <h3 className="text-xl font-semibold text-white">Skyline</h3>
+                <img src="/logo.png" alt="SKYLINE Logo" className="w-10 h-10 object-contain" />
+                <h3 className="text-xl font-semibold text-white">SKYLINE</h3>
               </div>
               <p className="text-slate-400 max-w-sm mb-6">
-                Cyber Security Solutions and Forensic Consultancy Services. Securing today for a safer tomorrow.
+                Centre of Excellence in Cyber Security and Forensics. Securing today for a safer tomorrow.
               </p>
               <p className="text-sm text-slate-500 font-medium">Under Chhatrapati Shahu Maharaj Sevabhavi Sanstha</p>
             </div>
@@ -343,7 +360,7 @@ export default function Home() {
           
           <div className="pt-8 border-t border-slate-900 text-center flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-slate-600 font-medium">
-              &copy; {new Date().getFullYear()} Skyline Cyber Security Solutions. All rights reserved.
+              &copy; {new Date().getFullYear()} SKYLINE Centre of Excellence. All rights reserved.
             </p>
             <p className="text-xs text-slate-600 font-medium">
               Satara, Maharashtra

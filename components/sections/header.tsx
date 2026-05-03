@@ -27,7 +27,7 @@ export function Header() {
           className="flex items-center gap-2"
         >
           <Shield className="w-6 h-6 text-[#00d4ff]" />
-          <span className="text-xl font-bold text-white">CyberSecure</span>
+          <span className="text-xl font-bold text-white">SKYLINE</span>
         </motion.div>
 
         {/* Desktop Nav */}

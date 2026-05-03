@@ -21,7 +21,7 @@ export function Footer() {
           >
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-[#00d4ff]" />
-              <span className="text-xl font-bold text-white">CyberSecure</span>
+              <span className="text-xl font-bold text-white">SKYLINE</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Empowering the next generation of cybersecurity professionals with world-class education.
@@ -112,7 +112,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} CyberSecure Academy. All rights reserved.
+            &copy; {currentYear} SKYLINE Centre of Excellence. All rights reserved.
           </p>
 
           {/* Social Links */}
